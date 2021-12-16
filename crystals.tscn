@@ -1,0 +1,19 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://crystals.gd" type="Script" id=1]
+[ext_resource path="res://images/items/wcrystal_gray.png" type="Texture" id=2]
+[ext_resource path="res://images/items/bcrystal.png" type="Texture" id=3]
+[ext_resource path="res://images/items/rcrystal.png" type="Texture" id=4]
+[ext_resource path="res://images/items/wcrystal.png" type="Texture" id=5]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="crystals" type="TextureButton" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture_normal = ExtResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+sprites = [ ExtResource( 2 ), ExtResource( 5 ), ExtResource( 3 ), ExtResource( 4 ) ]

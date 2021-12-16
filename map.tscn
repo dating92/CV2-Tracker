@@ -1,0 +1,51 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://images/cv2map.png" type="Texture" id=1]
+[ext_resource path="res://items.tscn" type="PackedScene" id=2]
+[ext_resource path="res://whips.tscn" type="PackedScene" id=3]
+[ext_resource path="res://crystals.tscn" type="PackedScene" id=4]
+[ext_resource path="res://checks.tscn" type="PackedScene" id=5]
+
+[node name="Map" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 1098.61, 463.888 )
+scale = Vector2( 0.468753, 0.468753 )
+texture = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="buttons" parent="." instance=ExtResource( 2 )]
+position = Vector2( 550, 963 )
+scale = Vector2( 0.6, 0.6 )
+
+[node name="whips" parent="." instance=ExtResource( 3 )]
+position = Vector2( 384, 949 )
+
+[node name="textbox" type="TextEdit" parent="."]
+margin_left = 12.0
+margin_top = 49.0
+margin_right = 268.0
+margin_bottom = 623.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="notepadlabel" type="RichTextLabel" parent="."]
+margin_left = 111.0
+margin_top = 23.0
+margin_right = 176.0
+margin_bottom = 58.0
+text = "NOTEPAD"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="crystals" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1086, 963 )
+scale = Vector2( 0.6, 0.6 )
+
+[node name="checks" parent="." instance=ExtResource( 5 )]
+visible = false
+position = Vector2( 64, 693 )
