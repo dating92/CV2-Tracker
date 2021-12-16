@@ -34,9 +34,9 @@
 [ext_resource path="res://images/items/laurels_gray.png" type="Texture" id=32]
 [ext_resource path="res://images/items/sknife.png" type="Texture" id=33]
 [ext_resource path="res://images/items/gknife.png" type="Texture" id=34]
-[ext_resource path="res://rib.gd" type="Script" id=35]
-[ext_resource path="res://checks.tscn" type="PackedScene" id=36]
-[ext_resource path="res://checks.gd" type="Script" id=37]
+[ext_resource path="res://scripts/rib.gd" type="Script" id=35]
+[ext_resource path="res://scenes/checks.tscn" type="PackedScene" id=36]
+[ext_resource path="res://scripts/checks.gd" type="Script" id=37]
 
 [node name="buttons" type="Node2D"]
 scale = Vector2( 0.8, 0.8 )

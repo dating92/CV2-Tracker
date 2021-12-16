@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://crystals.gd" type="Script" id=1]
+[ext_resource path="res://scripts/crystals.gd" type="Script" id=1]
 [ext_resource path="res://images/items/wcrystal_gray.png" type="Texture" id=2]
 [ext_resource path="res://images/items/bcrystal.png" type="Texture" id=3]
 [ext_resource path="res://images/items/rcrystal.png" type="Texture" id=4]
